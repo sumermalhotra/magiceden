@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "magiceden"
-version = "0.1.1"
+version = "0.1.2"
 description = "A scraper based API for Magic Eden, a Solana based NFT marketplace."
 authors = ["Sumer Malhotra <sumermalhotra1998@gmail.com>"]
 readme = "README.md"

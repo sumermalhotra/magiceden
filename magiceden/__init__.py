@@ -42,7 +42,7 @@ class MagicEdenScraper:
                     raise Exception
             except Exception as e:
                 if time() - start_time > self.timeout:
-                    print("Browser did not respond within 10 seconds.")
+                    print(f"Browser did not respond within {self.timeout} seconds.")
                     fp = None
                     flag = False
         return fp
